@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:fitsSystemWindows="true"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="75dp">
+
+        <TextView
+            android:id="@+id/txDoctorNameChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#000000"
+
+            android:textSize="@dimen/_20sdp" />
+<!--        <com.camerakit.CameraKitView-->
+<!--            android:id="@+id/camera"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:keepScreenOn="true"-->
+<!--            app:camera_flash="auto"-->
+<!--            app:camera_facing="back"-->
+<!--            app:camera_focus="continuous"-->
+<!--            app:camera_permissions="camera" />-->
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- A horizontal line between the chatbox and RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reycler_chat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="4dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/divider_chat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <View
+        android:id="@+id/divider_chat"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="#dfdfdf"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_chat_chatbox"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_chat_chatbox"
+        android:elevation="@dimen/_20sdp"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_50sdp"
+        android:orientation="horizontal"
+        android:minHeight="48dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:id="@+id/ly1"
+            android:visibility="visible"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.devlomi.record_view.RecordView
+                android:visibility="gone"
+                android:id="@+id/record_view"
+                android:layout_width="0dp"
+                android:layout_weight="1.95"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@id/record_button"
+                app:slide_to_cancel_arrow="@drawable/recv_ic_arrow"
+                app:slide_to_cancel_arrow_color="#000000"
+                app:slide_to_cancel_bounds="8dp"
+                app:slide_to_cancel_margin_right="10dp"
+                app:slide_to_cancel_text="Desliza para cancelar"
+                app:counter_time_color="#ff0000"
+                />
+
+            <EditText
+                android:id="@+id/edittext_chat"
+                android:hint="Escribe tu mensaje"
+                android:background="@drawable/full_rounded_low"
+                android:backgroundTint="#f2f2f2"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat"
+                android:maxLines="2"/>
+            <ImageView
+                android:id="@+id/button_chat_send"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_attach_ola"/>
+<!--            <ImageView-->
+<!--                android:id="@+id/button_chat_send_2"-->
+<!--                android:layout_marginRight="@dimen/_5sdp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="@dimen/_40sdp"-->
+<!--                android:layout_height="@dimen/_40sdp"-->
+<!--                android:src="@drawable/ic_vn_ola"/>-->
+
+            <com.devlomi.record_view.RecordButton
+                android:id="@+id/record_button"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/recv_bg_mic"
+                android:backgroundTint="@color/colorPrimary"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                app:mic_icon="@drawable/ic_vn_ola" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/button_chat_send_3"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_go"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ly2"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+<!--            <com.devlomi.record_view.RecordButton-->
+<!--                android:layout_weight=".1"-->
+<!--                android:id="@+id/record_button"-->
+<!--                android:layout_width="@dimen/_50sdp"-->
+<!--                android:layout_height="@dimen/_50sdp"-->
+<!--                android:scaleType="centerInside"-->
+<!--                android:src="@drawable/ic_vn_ola"-->
+<!--                app:mic_icon="@drawable/recv_ic_mic_white" />-->
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

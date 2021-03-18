@@ -1,0 +1,325 @@
+<resources>
+
+    <string name="app_name">Ola</string>
+
+    <!--LOGIN-->
+    <string name="internet_connection_error">No se ha detectado una conexión de internet activa</string>
+    <string name="login_login">INGRESAR</string>
+    <string name="login_error_bad_form">Datos incorrectos,  si no recuerdas los detalles, intenta re-establecer tu contraseña</string>
+
+    <!--REGISTER-->
+    <string name="login_welcome_message">Bienvenido</string>
+    <string name="register_title">Registrarte es sencillo</string>
+    <string name="register_error_bad_form">Please check that your passwords match and your email is entered correctly.</string>
+
+    <!--FORGOT_PASSWORD-->
+    <string name="register_welcome_message">Bienvenido, gracias por registrarte</string>
+    <string name="forgot_title">RECUPERAR CONTRASEÑA</string>
+    <string name="forgot_email">Correo electrónico</string>
+    <string name="forgot_send">ENVIAR</string>
+
+    <!--TOUR-->
+    <string name="forgot_success">An email has been sent to EMAIL</string>
+    <string name="tour_slide1_title">Know God is here to help you grow in your walk with God!</string>
+    <string name="tour_slide1_text">Keep track of your daily Bible, Prayer, and Action goals by tapping the colored bars on your Goals page and leave detailed notes for that day.</string>
+
+    <string name="tour_swipe">Swipe to Continue</string>
+    <string name="tour_slide2_title">Know God is here to encourage you forward in your journey!</string>
+
+    <string name="tour_slide2_text">Keep track of your Bible, Prayer, and Action streaks in your Profile.</string>
+    <string name="tour_slide3_title">Know God has an Accountability feature for you and your friends!</string>
+
+    <string name="tour_slide3_text">Add accountability partners and check their progress through the Accountability tab in your Profile.</string>
+    <string name="tour_slide4_title">God has great things in store for you through this app!</string>
+    <string name="tour_slide4_text">You’re ready to go! \nHave fun!</string>
+
+    <!--MAIN-->
+    <string name="tour_slide4_button">GET STARTED</string>
+    <string name="main_menu_goals">GOALS</string>
+    <string name="main_menu_profile">PROFILE</string>
+
+    <!--GOALS-->
+
+    <!--IDEAS-->
+
+    <!--CALENDAR-->
+    <string name="main_menu_ideas">IDEAS</string>
+
+    <!--PROFILE-->
+
+    <!--ACCOUNTABILITY PARTNERS-->
+
+    <!--SETTINGS-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="continyar">Continuar</string>
+    <string name="register_subtitle">Antes de comenzar, nos gustaría conocerte</string>
+    <string name="register">Registrarme</string>
+    <string name="register_politics">Al presionar \"Registrarme\" aceptas todos los Términos y condiciones que conlleva el uso de la app Canlove.</string>
+
+    <string name="guardar">GUARDAR</string>
+
+    <string name="facebook_app_id">2671880273136335</string>
+    <string name="fb_login_protocol_scheme">fb2671880273136335</string>
+    <string name="default_notification_channel_id">com.app.ola</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="filtros">Filtros</string>
+    <string name="deparment_2">Departamento:</string>
+    <string name="title_activity_place_detail">PlaceDetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+
+    <string name="address">{address}</string>
+    <string name="hatn">Horario de atención</string>
+    <string name="ninfo">Sin información disponible</string>
+    <string name="serv">Servicios</string>
+    <string name="reserv">Citas</string>
+    <string name="resrvtx">Puedes realizar citas en esta oficina comercial para realizar tus trámites</string>
+    <string name="resrvtx2">Solicita tu cita</string>
+    <string name="nodata">No hay datos disponibles</string>
+    <string name="near">Cerca de ti</string>
+    <string name="gonow">Ir ahora</string>
+    <string name="kmsp">De tu ubicación actual</string>
+    <string name="verification">Código de verificación</string>
+    <string name="title_activity_my_theft_reports_list">MyTheftReportsListActivity</string>
+    <string name="title_theft">Denuncia de hurto</string>
+    <string name="theft_step_1">Evidencias</string>
+    <string name="step_ok">\u2713</string>
+    <string name="theft_subtl">Denunciando el hurto de energía, contribuyes a la mejora continua del servicio y a tu comunidad.</string>
+    <string name="ver_mas">Más detalles</string>
+    <string name="title_activity_theft_step1">TheftStep1Activity</string>
+    <string name="theft_step_2">Ubicación</string>
+    <string name="theft_step_3">Detalles</string>
+    <string name="theft_1">Añade fotografías para evidenciar el hurto</string>
+    <string name="nextr">SIGUIENTE</string>
+    <string name="title_activity_theft_step2">TheftStep2Activity</string>
+    <string name="theft_step2_text">Revisa los detalles de tu denuncia antes de enviar la información:</string>
+    <string name="hazard_step2_text">Revisa los detalles del reporte antes de enviar la información:</string>
+    <string name="theft_ind_1">Datos de ubicación</string>
+    <string name="touch_edit">Toca para editar</string>
+    <string name="city_2">Municipio:</string>
+    <string name="reference">Referencia:</string>
+    <string name="reference_2">Referencia de ubicación:</string>
+    <string name="theft_ind_2">Motivo y horario observado</string>
+    <string name="schedule">Horario:</string>
+    <string name="reason">Motivo:</string>
+    <string name="description">Descripción:</string>
+    <string name="adjunt">"Adjuntaste: "</string>
+    <string name="fotos">" fotos"</string>
+    <string name="finish_theft">ENVIAR REPORTE</string>
+    <string name="title_activity_theft_details">TheftDetailsActivity</string>
+    <string name="details">Detalles</string>
+    <string name="title_activity_theft_details_case">TheftDetailsCaseActivity</string>
+    <string name="following">Seguimiento</string>
+    <string name="actual_status">Estado actual:</string>
+    <string name="description_2">Describe los hechos</string>
+    <string name="theft_follow_1">Enviado</string>
+    <string name="theft_follow_2">Validado</string>
+    <string name="theft_follow_3">Resolución</string>
+    <string name="title_activity_p_o_list">POListActivity</string>
+    <string name="viewmoredetails">Más detalles</string>
+    <string name="title_activity_news_list">NewsListActivity</string>
+    <string name="title_activity_news_deetail">NewsDeetailActivity</string>
+    <string name="title_news">Noticias AES</string>
+    <string name="title_po">Interrupciones</string>
+    <string name="title_po_1">programadas</string>
+    <string name="query_nic">Consulta tu NIC</string>
+    <string name="st_in_progress">EN PROGRESO</string>
+    <string name="title_activity_p_o_detail">PODetailActivity</string>
+    <string name="back">Atrás</string>
+    <string name="title_activity_my_innovation_form_list">MyInnovationFormListActivity</string>
+    <string name="title_activity_new_innovation_form">NewInnovationFormActivity</string>
+    <string name="title_activity_innovation_form_detail">InnovationFormDetailActivity</string>
+    <string name="title_activity_my_hazard_reports_list">MyHazardReportsListActivity</string>
+    <string name="title_activity_hazard_reports_details">HazardReportsDetailsActivity</string>
+    <string name="title_activity_hazard_reports_details_case">HazardReportsDetailsCaseActivity
+    </string>
+    <string name="title_activity_hazard_step1">HazardStep1Activity</string>
+    <string name="title_activity_hazard_step2">HazardStep2Activity</string>
+    <string name="title_hazard">Reporte de peligros</string>
+    <string name="hazard_subtl">AES aconseja a la población mantenerse a más de un metro de distancia de los cables y equipos eléctricos; el contacto con ellos puede poner en riesgo la seguridad física e incluso ocasionar la muerte.</string>
+    <string name="title_hazard2">en la red</string>
+    <string name="hazard">Peligro</string>
+    <string name="hazard_ind_2">Peligro observado</string>
+    <string name="hazard_to">Peligro:</string>
+    <string name="hazard_sind_2">Peligro y descripción observado</string>
+    <string name="title_activity_my_account">MyAccountActivity</string>
+    <string name="mydata">Mis datos</string>
+    <string name="ttoedit">Toca para editar</string>
+    <string name="spersonalData">Datos personales</string>
+    <string name="contactData">Datos de contacto</string>
+    <string name="nicslist">Mis NICs asociados</string>
+    <string name="staddnic">AGREGAR NIC</string>
+    <string name="title_activity_account_settings">AccountSettingsActivity</string>
+    <string name="mysettings">Configuraciones</string>
+    <string name="not_1">Reclamos</string>
+    <string name="not_2">Solicitudes</string>
+    <string name="not_3">Consultas</string>
+    <string name="not_4">Ordenes de servicio</string>
+    <string name="not_5">Interrupciones</string>
+    <string name="not_6">Factura del mes</string>
+    <string name="not_7">Cuenta pendiente</string>
+    <string name="accountsetting">Cuenta</string>
+    <string name="changepwd">Cambiar contraseña</string>
+    <string name="closesession">Cerrar sesión</string>
+    <string name="title_activity_add_nic">AddNicActivity</string>
+    <string name="add">Agregar</string>
+    <string name="nic">NIC *</string>
+    <string name="docnumberfact">Número de última factura</string>
+    <string name="alias">Nombre personalizado</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="nameinput">Nombres y apellidos</string>
+    <string name="names">Nombres</string>
+    <string name="lastnames">Apellidos</string>
+    <string name="update">ACTUALIZAR</string>
+    <string name="title_form_1">Ayúdanos</string>
+    <string name="title_inno_2">a innovar</string>
+    <string name="inno_text">Ingresa los detalles de tu idea de innovación</string>
+    <string name="inno_descr">En AES El Salvador estamos interesados en conocer tus ideas innovadoras en relación al servicio de Energía Eléctrica, por lo que te invitamos a formar parte del equipo creativo que contribuirá a la máxima satisfacción de nuestros clientes</string>
+    <string name="innovationidea">Idea de innovación</string>
+    <string name="status_enviado">Enviada</string>
+    <string name="inno_step_1">Enviada</string>
+    <string name="describes_innovation">Describe tu idea o comentario</string>
+    <string name="send">ENVIAR</string>
+    <string name="inno_step_3">Finalizado</string>
+    <string name="title_details_inno">Detalles</string>
+    <string name="descript_sended">Descripción enviada</string>
+    <string name="no_data">No hay datos disponibles</string>
+    <string name="followup">Seguimiento</string>
+    <string name="saatus">Estado actual</string>
+    <string name="title_activity_appointments_main">AppointmentsMainActivity</string>
+    <string name="title_activity_online_consumption">OnlineConsumptionActivity</string>
+    <string name="selectnic">Selecciona un NIC</string>
+
+    <string name="style_rounded">rounded_box</string>
+    <string name="query">CONSULTAR</string>
+    <string name="consumo">Consumo</string>
+    <string name="enlinea">en línea</string>
+    <string name="consumo_fecha">Su consumo a la fecha es de:</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="title_activity_n_i_c_billing_status">NICBillingStatusActivity</string>
+    <string name="title_activity_billing_history">BillingHistoryActivity</string>
+    <string name="title_activity_pagadito_payment">PagaditoPaymentActivity</string>
+    <string name="title_activity_cons_simulatot">ConsSimulatotActivity</string>
+    <string name="title_activity_management_main">ManagementMainActivity</string>
+    <string name="title_activity_new_service_requests_list">NewServiceRequestsListActivity</string>
+    <string name="billing">Facturas</string>
+    <string name="txlastbilling">Detalles de última factura</string>
+    <string name="csmokw">Consumo en kWh</string>
+    <string name="monthperiod">Mes facturado</string>
+    <string name="duedate">Fecha de vencimiento</string>
+    <string name="txtdetaillastbilling">Detalle de facturación</string>
+    <string name="energycharge">Cargo de energía</string>
+    <string name="othercharges">Otros servicios</string>
+    <string name="alcaldia">Total alcaldía</string>
+    <string name="total">Total a pagar</string>
+    <string name="seebill">VER FACTURA</string>
+    <string name="seehistoryc">VER HISTÓRICO</string>
+    <string name="paynow">PAGAR AHORA</string>
+    <string name="title_activity_p_d_f_viewer">PDFViewerActivity</string>
+    <string name="paymentsMethods">Seleccione su método de pago</string>
+    <string name="payment">Pago de factura</string>
+    <string name="metodopago">Métodos de pago disponibles</string>
+    <string name="title_activity_new_appointment">NewAppointmentActivity</string>
+    <string name="historyc">Histórico de facturas</string>
+    <string name="date">Fecha</string>
+    <string name="amount">Monto</string>
+    <string name="status">Estado</string>
+    <string name="myappointments">VER MIS CITAS PROGRAMADAS</string>
+    <string name="appointments">Citas</string>
+    <string name="commercial_offices">en oficinas comerciales</string>
+    <string name="availabledates">Fechas disponibles</string>
+    <string name="availablescheds">Horarios disponibles</string>
+    <string name="gsttype">Tipo de gestión a realizar</string>
+    <string name="nicx">NIC</string>
+    <string name="solicitarcita">PROGRAMAR CITA</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="consumos">de consumo</string>
+    <string name="calculadora_simulador">Recuerda ahorrar energía es importante para disminuir el monto de cargo por energía eléctrica en tu factura, además de aprovechar mejor los recursos de toda la red eléctrica.</string>
+    <string name="seleccionaaparatos">Selecciona los aparatos que más utilizas</string>
+    <string name="consaprox">Tu consumo aproximado al mes es:</string>
+    <string name="contratacion">Contratación</string>
+    <string name="nuevoservicio">de nuevo servicio</string>
+    <string name="solicitud">Tipo de solicitud</string>
+    <string name="servicionuevo">Servicio nuevo</string>
+    <string name="incremento">Incremento de carga</string>
+    <string name="title_activity_new_service_form1">NewServiceForm1Activity</string>
+    <string name="title_form_1_ns">Contratación de</string>
+    <string name="title_inno_2_ns">nuevos servicios</string>
+    <string name="sol_sen">Lista de solicitudes enviadas</string>
+    <string name="title_activity_new_request_detail">NewRequestDetailActivity</string>
+    <string name="locationdata">Datos de ubicación *</string>
+    <string name="title_activity_appointment_detail">AppointmentDetailActivity</string>
+    <string name="fhora">FECHA/HORA</string>
+    <string name="gestiontype">TIPO DE GESTIÓN</string>
+    <string name="citacode">CÓDIGO DE LA CITA</string>
+    <string name="title_activity_notifications_list">NotificationsListActivity</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="fecha">FECHA</string>
+    <string name="direccionreferente">Dirección de referencia</string>
+    <string name="seleccione">Seleccione la ubicación en el mapa *</string>
+    <string name="title_activity_new_service_form2">NewServiceForm2Activity</string>
+    <string name="requestsolicitud">Detalles de solicitud *</string>
+    <string name="potency">Seleccione la potencia *</string>
+    <string name="comentario">Comentario</string>
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+    <string name="no_nics">Te recordamos que para la mayoría de nuestras opciones deberás tener al menos un NIC registrado.</string>
+    <string name="later">Luego</string>
+    <string name="registernow">Agregar NIC</string>
+    <string name="gestions">Gestiones</string>
+    <string name="gestiones_descr">Reporta peligros o fallos en la red para obtener ayuda rápidamente</string>
+    <string name="title_activity_without_n_i_cs">WithoutNICsActivity</string>
+    <string name="withoutnics">Todavía no has asociado NICs a tu cuenta</string>
+    <string name="no_nics_add">Para utilizar esta función debes agregar uno</string>
+    <string name="title_activity_new_operation">NewOperationActivity</string>
+    <string name="gestioncat">Categoría de la gestión</string>
+    <string name="management">Gestión a realizar</string>
+    <string name="comment">Comentario</string>
+    <string name="commentt">Comentario para la gestión</string>
+    <string name="ffin">Fecha fin</string>
+    <string name="finicio">Fecha inicio</string>
+    <string name="datesx">Fechas de referencia</string>
+    <string name="correox">Correo electrónico para recibir el historial</string>
+    <string name="hazard_1">Adjunta fotografías para evidenciar el reporte</string>
+    <string name="affected">Afectados</string>
+    <string name="gestionenviada">GESTIÓN ENVIADA</string>
+    <string name="gestion_1">Hemos recibido su gestión, puede consultarla con el número:</string>
+    <string name="cargando">Espere un momento</string>
+    <string name="nodebt">Para la fecha: {dt} a las {dx} el NIC #{nic} no presenta deuda pendiente.</string>
+    <string name="descargarhistorial">DESCARGAR HISTORIAL</string>
+    <string name="tip_0">Los focos con iluminación eficiente pueden ahorrar hasta un 60% en comparación con los tradicionales y duran hasta 10 veces más.</string>
+    <string name="peligroask">¿Hay algun peligro en la zona?</string>
+    <string name="dsolicitud">Datos de la solicitud</string>
+    <string name="legalrep">Representante legal</string>
+    <string name="holder1">Titular</string>
+    <string name="selectDUI">Seleccionar DUI</string>
+    <string name="duifrente">Archivo de DUI (Frente)</string>
+    <string name="duidorso">Archivo de DUI (Dorso)</string>
+    <string name="selectNIT">Seleccionar NIT</string>
+    <string name="ok">Aceptar</string>
+    <string name="title_activity_my_cards">MyCardsActivity</string>
+    <string name="archivonitfrente">Archivo NIT (Frente)</string>
+    <string name="archivonitdorso">Archivo NIT (Dorso)</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_first_home">MainActivity</string>
+    <string name="title_activity_home_tabs">MainActivity</string>
+    <string name="title_activity_main_ola">MainActivity</string>
+    <string name="title_activity_home_ola">MainActivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_register_login">RegisterLoginActivity</string>
+    <string name="title_activity_zoom_image">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

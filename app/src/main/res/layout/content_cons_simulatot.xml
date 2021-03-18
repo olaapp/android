@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:fontFamily="@font/montserrat"-->
+        <!--            android:text="Selecciona la prenda a reparar"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="@dimen/_13sdp" />-->
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/titlex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/calculadora"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/titlex_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/consumos"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/calculadora_simulador"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorPrimary"
+            />
+        <View
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="@dimen/_1sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/seleccionaaparatos"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_316sdp"
+
+                android:layout_marginStart="10dp"
+
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:spanCount="2"
+                tools:listitem="@layout/ly_category_new" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_300sdp"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                tools:listitem="@layout/ly_category_new">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:id="@+id/vshimer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+
+                        android:layout_marginLeft="@dimen/_19sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/ly_category_new_shimmer" />
+
+                        <include layout="@layout/ly_category_new_shimmer" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginLeft="@dimen/_19sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/ly_category_new_shimmer" />
+
+                        <include layout="@layout/ly_category_new_shimmer" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/consaprox"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/lblcsmoTotal"
+            android:layout_marginBottom="@dimen/_120sdp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:text="0kWH"
+            android:textSize="@dimen/_13sdp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

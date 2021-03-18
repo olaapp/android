@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">aeselsalvadormovil.com</domain>
+        <domain includeSubdomains="true">aeselsalvador.com</domain>
+        <domain includeSubdomains="true">aes-elsalvador.com</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">movilaeswebdes.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">VuWvihyGOBGZfVU8LeF7owmAoyeiUGKCVk8/+j3HGwY=</pin>
+        </pin-set>
+    </domain-config>
+
+<!--    <domain-config cleartextTrafficPermitted="true">-->
+<!--        <domain includeSubdomains="true">firebasestorage.googleapis.com</domain>-->
+<!--    </domain-config>-->
+
+</network-security-config>
+

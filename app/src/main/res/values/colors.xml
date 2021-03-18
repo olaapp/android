@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#FF6900</color>
+    <color name="colorAccent">#80BC41</color>
+    <color name="colorAccent6">#323e48</color>
+    <color name="colorAccent6X">#00415F</color>
+    <color name="colorAccent8">#FF0000</color>
+
+
+    <color name="colorGrayDark">#222222</color>
+    <color name="colorGrayLight">#ff8b8b8b</color>
+    <color name="colorGrayNormal">#ff484848</color>
+
+
+    <color name="colorPrimaryDarkTransp">#33005FB7</color>
+
+
+    <color name="white">#ffffff</color>
+
+
+    <color name="titleColor">#4B7493</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+
+    <!-- dots active colors -->
+
+</resources>

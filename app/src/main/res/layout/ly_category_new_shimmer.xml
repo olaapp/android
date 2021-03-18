@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btnPlan"
+    android:layout_width="@dimen/_110sdp"
+    android:layout_height="@dimen/_155sdp"
+    android:background="@drawable/profile_rounded_outlined_2_selected"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:backgroundTint="#dbdbdb"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:backgroundTint="#EFEFEF"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/ic_opt_btn_inverted"
+            android:buttonTint="#8E8E8E"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:checked="true"
+            android:gravity="right"
+            android:layoutDirection="rtl"
+            android:enabled="false"
+            android:layout_marginBottom="-10dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="@dimen/_2sdp"
+            app:srcCompat="@drawable/ic_iron"
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:tint="#8E8E8E"
+            android:layout_weight="10"
+            android:fontFamily="@font/lato"
+            android:gravity="left"
+            android:text="Paquete bienvenida"
+            android:textColor="#dbdbdb"
+            android:singleLine="true"
+            android:textSize="@dimen/_10sdp" />
+
+        <View
+            android:id="@+id/planDescription"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_15sdp"
+            android:textSize="@dimen/_12sdp"
+            android:background="#BDBDBD"
+            />
+
+        <TextView
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="30"
+            android:ellipsize="end"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_9sdp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@color/white"/>
+
+    <!-- Logo at the center of the screen -->
+    <item
+        android:width="@dimen/_180sdp"
+        android:height="@dimen/_100sdp"
+        android:drawable="@drawable/ic_aes_el_salvador_gray"
+        android:gravity="center"/>
+</layer-list>

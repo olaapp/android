@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titlex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/add"
+            android:visibility="gone"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/titlex_2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/peligroask"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/positivogestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:text="@string/gestion_1"/>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_marginBottom="@dimen/_20sdp"-->
+<!--            android:id="@+id/tv5"-->
+<!--            style="@style/LoginTextInputLayoutStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="@dimen/_20sdp"-->
+<!--            android:layout_marginRight="@dimen/_20sdp"-->
+<!--            android:fontFamily="@font/montserrat"-->
+<!--            app:counterMaxLength="256"-->
+<!--            app:helperTextEnabled="true"-->
+<!--            app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/guideline">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/txtValue"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_40sdp"-->
+<!--                android:fontFamily="@font/montserrat_bold"-->
+<!--                android:gravity="top|left"-->
+<!--                android:inputType="textMultiLine"-->
+<!--                android:maxLength="256"-->
+<!--                android:scrollbars="vertical"-->
+<!--                android:singleLine="false"-->
+<!--                android:text=""-->
+<!--                android:textColor="@color/colorPrimary" />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+            <Spinner
+                android:id="@+id/txtValuex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"/>
+
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="parent"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer"
+            android:orientation="vertical"
+            android:gravity="bottom|right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/btnNext_theft_a"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:elevation="@dimen/_5sdp"
+                android:gravity="bottom|right"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/bg_rounded_aes_pressed"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/login_login"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_8sdp"
+
+                >
+                <ProgressBar
+                    android:id="@+id/pgbarNext"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tvNext"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_rounded_aes_pressed"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/update"
+                    android:textColor="@color/colorPrimary" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

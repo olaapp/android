@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid
+                android:color="@color/white"/>
+            <size
+                android:width="35dp"
+                android:height="35dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <inset
+            android:drawable="@drawable/ic_chk"
+            android:insetBottom="@dimen/_1sdp"
+            android:insetLeft="@dimen/_1sdp"
+            android:insetRight="@dimen/_1sdp"
+            android:insetTop="@dimen/_1sdp"
+            />
+    </item>
+
+</layer-list>

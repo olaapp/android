@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1007829646571",
+    "firebase_url": "https://ola-app-58e31.firebaseio.com",
+    "project_id": "ola-app-58e31",
+    "storage_bucket": "ola-app-58e31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007829646571:android:2c3ebfa068575fb0f052ae",
+        "android_client_info": {
+          "package_name": "com.app.ola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007829646571-ilqrc6vnvkmnc531vl1auv6ercaej5md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0-6wVtH6hMo8Jo-ZvmeaXCtC76FsvDe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007829646571-ilqrc6vnvkmnc531vl1auv6ercaej5md.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1007829646571-a3cgj7ur29a4mp47nqvt2ao73fek1r9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.Ola"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

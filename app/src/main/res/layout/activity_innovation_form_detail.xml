@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".environment.main.aes.innovation_form.InnovationFormDetailActivity">
+
+
+
+<!--    <include layout="@layout/content_innovation_form_detail" />-->
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/titlex"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="@dimen/_18sdp"
+        android:text="@string/title_details_inno" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ln1"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorAccent6"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:text="@string/descript_sended"/>
+        <TextView
+            android:id="@+id/tvSended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_below="@id/ln1"
+            android:text="@string/no_data"/>
+
+        <include layout="@layout/content_innovation_form_detail" />
+
+
+<!--        <include layout="@layout/content_new_innovation_form" />-->
+
+
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="parent"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/footer"
+            android:orientation="vertical"
+            android:gravity="bottom|right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/btnNext_inno"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_height="@dimen/_40sdp"
+
+                android:gravity="bottom|right"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/bg_rounded_aes_pressed"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/login_login"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_8sdp"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_rounded_aes_pressed"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:textAllCaps="true"
+                    android:text="@string/back"
+                    android:textColor="@color/colorPrimary" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|end"
+                android:id="@+id/signinBtn"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_rounded"
+                android:layout_height="@dimen/_60sdp">
+
+                <com.github.abdularis.civ.CircleImageView
+                    android:id="@+id/icpr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    app:srcCompat="@drawable/ic_userx"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_toRightOf="@id/icpr"
+                    android:text="Inicia sesión o regístrate para acceder a todas las herramientas digitales y gestionar tu servicio."
+                    android:fontFamily="@font/montserrat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_marginRight="@dimen/_40sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="#000000"
+                    android:justificationMode="inter_word"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/btnCollapseSignin"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="-45dp"
+                    android:layout_toEndOf="@+id/tv1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    app:srcCompat="@drawable/ic_close_aes2"
+                    tools:ignore="VectorDrawableCompat" />
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_margin="@dimen/fab_margin"-->
+<!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

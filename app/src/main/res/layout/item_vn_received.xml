@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ic_VN_c"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/rounded_rectangle_gray"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+            <ImageView
+                android:id="@+id/btnPlayStop_c"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_play_button_arrowhead"
+                app:tint="@color/colorPrimary" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_message_time_c"
+        android:text="11:40"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/ic_VN"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_VN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
